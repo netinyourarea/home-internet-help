@@ -46,7 +46,7 @@ function ContactPage() {
             <Eyebrow>Reach us</Eyebrow>
             <ul className="space-y-4">
               {[
-                { icon: Phone, label: "xxx-xxx-xxxx", href: "tel:xxx-xxx-xxxx" },
+                { icon: Phone, label: "(855) 657-5907", href: "tel:+18556575907" },
                 { icon: Mail, label: "contact@homeinternethelps.com", href: "mailto:contact@homeinternethelps.com" },
               ].map((c) => (
                 <li key={c.label} className="flex items-center gap-4 rounded-2xl border border-border bg-card p-5">
