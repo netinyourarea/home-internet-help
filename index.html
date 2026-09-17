@@ -32,6 +32,23 @@
 
       gtag('config', 'AW-18385269246');
     </script>
+    <!-- Event snippet for Purchase conversion page -->
+    <script>
+      function gtag_report_conversion(url) {
+        var callback = function () {
+          if (typeof(url) != 'undefined') {
+            window.location = url;
+          }
+        };
+        gtag('event', 'conversion', {
+            'send_to': 'AW-18385269246/Zn5JCPW4iOMcEP7j475E',
+            'transaction_id': '',
+            'event_callback': callback
+            // 'new_customer': true /* calculate dynamically, populate with true/false */,
+        });
+        return false;
+      }
+    </script>
     <!-- SPA redirect decode for GitHub Pages -->
     <script type="text/javascript">
       (function(l) {
