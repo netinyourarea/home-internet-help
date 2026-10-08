@@ -67,10 +67,10 @@ export function Header() {
             Same-week installation windows · Internet + Cable TV
           </p>
           <a
-            href="tel:+18556575907"
+            href="tel:+18335318316"
             className="flex items-center gap-2 border-l border-cream/10 py-2.5 pl-6 hover:text-cyan"
           >
-            <Phone className="size-3.5 text-cyan" /> (855) 657-5907
+            <Phone className="size-3.5 text-cyan" /> (833) 531-8316
           </a>
         </div>
       </div>
