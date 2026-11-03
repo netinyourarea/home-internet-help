@@ -1,5 +1,5 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
-import { Briefcase, Gamepad2, Gauge, MonitorPlay, Router, ShieldCheck, Upload, Wifi } from "lucide-react";
+import { createFileRoute } from "@tanstack/react-router";
+import { Briefcase, Gamepad2, Gauge, MonitorPlay, Phone, ShieldCheck, Upload, Wifi } from "lucide-react";
 import { PageHero, FeatureGrid, CtaStrip } from "@/components/site/page-shell";
 import { Reveal, Eyebrow } from "@/components/site/primitives";
 import { InternetPlans } from "@/components/site/home-sections";
@@ -83,12 +83,12 @@ function InternetPage() {
               nodes for thick walls or upper floors, and run a speed test in each room before the
               job is called done.
             </p>
-            <Link
-              to="/contact"
+            <a
+              href="tel:+18335813551"
               className="mt-7 inline-flex items-center gap-2 rounded-xl bg-primary px-6 py-3.5 text-sm font-bold text-primary-foreground"
             >
-              <Router className="size-4" /> Ask about equipment
-            </Link>
+              <Phone className="size-4" /> Call (833) 581-3551
+            </a>
           </Reveal>
           <Reveal delay={100}>
             <img

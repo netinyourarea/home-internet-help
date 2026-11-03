@@ -101,13 +101,13 @@ export function Header() {
           </nav>
 
           <div className="flex items-center gap-2 py-3">
-            <Link
-              to="/contact"
+            <a
+              href="tel:+18335813551"
               className="group hidden items-center gap-2 bg-ink px-6 py-3 text-[11px] font-extrabold tracking-[0.18em] text-cream uppercase transition-colors hover:bg-primary sm:inline-flex"
             >
-              Check coverage
+              Call (833) 581-3551
               <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
-            </Link>
+            </a>
             <button
               type="button"
               aria-label="Toggle navigation"
@@ -134,13 +134,13 @@ export function Header() {
                 </Link>
               ))}
             </nav>
-            <Link
-              to="/contact"
+            <a
+              href="tel:+18335813551"
               onClick={() => setOpen(false)}
               className="block bg-ink px-4 py-4 text-center text-xs font-extrabold tracking-[0.18em] text-cream uppercase"
             >
-              Check coverage
-            </Link>
+              Call (833) 581-3551
+            </a>
           </div>
         )}
       </header>

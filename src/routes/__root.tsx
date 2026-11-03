@@ -9,6 +9,7 @@ import {
 
 import { Header } from "../components/site/header";
 import { Footer } from "../components/site/footer";
+import { StickyCall } from "../components/site/sticky-call";
 
 function NotFoundComponent() {
   return (
@@ -96,6 +97,7 @@ function RootComponent() {
           <Outlet />
         </main>
         <Footer />
+        <StickyCall />
       </div>
     </QueryClientProvider>
   );

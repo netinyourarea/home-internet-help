@@ -19,6 +19,7 @@ import {
   Tv,
   Users,
   Wifi,
+  Phone,
   Wrench,
   Zap,
 } from "lucide-react";
@@ -63,13 +64,13 @@ export function Hero() {
             </p>
 
             <div className="mt-8 flex flex-wrap gap-y-3">
-              <Link
-                to="/contact"
+              <a
+                href="tel:+18335813551"
                 className="group inline-flex items-center gap-2 bg-cyan px-6 py-3.5 text-xs font-extrabold tracking-[0.18em] text-ink uppercase transition-colors hover:bg-amber sm:px-8 sm:py-4"
               >
-                Check my address
+                Call (833) 581-3551
                 <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
-              </Link>
+              </a>
               <Link
                 to="/cable-tv"
                 className="inline-flex items-center gap-2 border border-cream/25 px-6 py-3.5 text-xs font-extrabold tracking-[0.18em] text-cream uppercase transition-colors hover:bg-cream/10 sm:px-8 sm:py-4"
@@ -267,16 +268,21 @@ export function InternetPlans() {
                   ))}
                 </ul>
 
-                <Link
-                  to="/contact"
-                  className={
-                    t.best
-                      ? "mt-8 flex items-center justify-center gap-2 bg-cyan py-4 text-[11px] font-extrabold tracking-[0.2em] text-ink uppercase hover:bg-amber"
-                      : "mt-8 flex items-center justify-center gap-2 border border-ink py-4 text-[11px] font-extrabold tracking-[0.2em] uppercase transition-colors hover:bg-ink hover:text-cream"
-                  }
-                >
-                  Check availability <ArrowUpRight className="size-4" />
-                </Link>
+                {t.best ? (
+                  <a
+                    href="tel:+18335813551"
+                    className="mt-8 flex items-center justify-center gap-2 bg-cyan py-4 text-[11px] font-extrabold tracking-[0.2em] text-ink uppercase hover:bg-amber"
+                  >
+                    Call (833) 581-3551 <ArrowUpRight className="size-4" />
+                  </a>
+                ) : (
+                  <Link
+                    to="/contact"
+                    className="mt-8 flex items-center justify-center gap-2 border border-ink py-4 text-[11px] font-extrabold tracking-[0.2em] uppercase transition-colors hover:bg-ink hover:text-cream"
+                  >
+                    Check availability <ArrowUpRight className="size-4" />
+                  </Link>
+                )}
               </div>
             </Reveal>
           ))}
@@ -410,12 +416,12 @@ export function Bundle() {
                 );
               })}
             </ul>
-            <Link
-              to="/contact"
+            <a
+              href="tel:+18335813551"
               className="mt-10 inline-flex items-center gap-2 bg-ink px-8 py-4 text-[11px] font-extrabold tracking-[0.2em] text-cream uppercase transition-colors hover:bg-primary"
             >
-              Build my bundle <ArrowRight className="size-4" />
-            </Link>
+              Call (833) 581-3551 <ArrowRight className="size-4" />
+            </a>
           </div>
         </div>
       </div>
@@ -854,13 +860,13 @@ export function FinalCta() {
             </p>
           </div>
           <div className="flex flex-col">
-            <Link
-              to="/contact"
+            <a
+              href="tel:+18335813551"
               className="group flex items-center justify-between gap-3 bg-cyan px-7 py-5 text-[11px] font-extrabold tracking-[0.2em] text-ink uppercase transition-colors hover:bg-amber"
             >
-              Talk to a specialist
+              Call (833) 581-3551
               <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
-            </Link>
+            </a>
             <Link
               to="/internet"
               className="group flex items-center justify-between gap-3 border border-t-0 border-cream/25 px-7 py-5 text-[11px] font-extrabold tracking-[0.2em] text-cream uppercase hover:bg-cream/10"

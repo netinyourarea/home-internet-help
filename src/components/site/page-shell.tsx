@@ -69,12 +69,12 @@ export function CtaStrip() {
             See what's serviceable at your address
           </h2>
           <div className="flex flex-col gap-3 sm:flex-row">
-            <Link
-              to="/internet"
+            <a
+              href="tel:+18335813551"
               className="bg-ink px-8 py-4 text-[11px] font-extrabold tracking-[0.2em] uppercase text-primary-foreground"
             >
-              View plans
-            </Link>
+              Call (833) 581-3551
+            </a>
             <Link
               to="/contact"
               className="border border-ink px-8 py-4 text-[11px] font-extrabold tracking-[0.2em] uppercase"
