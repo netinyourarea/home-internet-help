@@ -65,10 +65,10 @@ export function Hero() {
 
             <div className="mt-8 flex flex-wrap gap-y-3">
               <a
-                href="tel:+18335813551"
+                href="tel:+18668217286"
                 className="group inline-flex items-center gap-2 bg-cyan px-6 py-3.5 text-xs font-extrabold tracking-[0.18em] text-ink uppercase transition-colors hover:bg-amber sm:px-8 sm:py-4"
               >
-                Call (833) 581-3551
+                Call (866) 821-7286
                 <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
               </a>
               <Link
@@ -270,10 +270,10 @@ export function InternetPlans() {
 
                 {t.best ? (
                   <a
-                    href="tel:+18335813551"
+                    href="tel:+18668217286"
                     className="mt-8 flex items-center justify-center gap-2 bg-cyan py-4 text-[11px] font-extrabold tracking-[0.2em] text-ink uppercase hover:bg-amber"
                   >
-                    Call (833) 581-3551 <ArrowUpRight className="size-4" />
+                    Call (866) 821-7286 <ArrowUpRight className="size-4" />
                   </a>
                 ) : (
                   <Link
@@ -417,10 +417,10 @@ export function Bundle() {
               })}
             </ul>
             <a
-              href="tel:+18335813551"
+              href="tel:+18668217286"
               className="mt-10 inline-flex items-center gap-2 bg-ink px-8 py-4 text-[11px] font-extrabold tracking-[0.2em] text-cream uppercase transition-colors hover:bg-primary"
             >
-              Call (833) 581-3551 <ArrowRight className="size-4" />
+              Call (866) 821-7286 <ArrowRight className="size-4" />
             </a>
           </div>
         </div>
@@ -861,10 +861,10 @@ export function FinalCta() {
           </div>
           <div className="flex flex-col">
             <a
-              href="tel:+18335813551"
+              href="tel:+18668217286"
               className="group flex items-center justify-between gap-3 bg-cyan px-7 py-5 text-[11px] font-extrabold tracking-[0.2em] text-ink uppercase transition-colors hover:bg-amber"
             >
-              Call (833) 581-3551
+              Call (866) 821-7286
               <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
             </a>
             <Link

@@ -84,10 +84,10 @@ function InternetPage() {
               job is called done.
             </p>
             <a
-              href="tel:+18335813551"
+              href="tel:+18668217286"
               className="mt-7 inline-flex items-center gap-2 rounded-xl bg-primary px-6 py-3.5 text-sm font-bold text-primary-foreground"
             >
-              <Phone className="size-4" /> Call (833) 581-3551
+              <Phone className="size-4" /> Call (866) 821-7286
             </a>
           </Reveal>
           <Reveal delay={100}>

@@ -70,10 +70,10 @@ export function CtaStrip() {
           </h2>
           <div className="flex flex-col gap-3 sm:flex-row">
             <a
-              href="tel:+18335813551"
+              href="tel:+18668217286"
               className="bg-ink px-8 py-4 text-[11px] font-extrabold tracking-[0.2em] uppercase text-primary-foreground"
             >
-              Call (833) 581-3551
+              Call (866) 821-7286
             </a>
             <Link
               to="/contact"

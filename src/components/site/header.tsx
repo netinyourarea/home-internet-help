@@ -67,10 +67,10 @@ export function Header() {
             Same-week installation windows · Internet + Cable TV
           </p>
           <a
-            href="tel:+18335813551"
+            href="tel:+18668217286"
             className="flex items-center gap-2 border-l border-cream/10 py-2.5 pl-6 hover:text-cyan"
           >
-            <Phone className="size-3.5 text-cyan" /> (833) 581-3551
+            <Phone className="size-3.5 text-cyan" /> (866) 821-7286
           </a>
         </div>
       </div>
@@ -102,10 +102,10 @@ export function Header() {
 
           <div className="flex items-center gap-2 py-3">
             <a
-              href="tel:+18335813551"
+              href="tel:+18668217286"
               className="group hidden items-center gap-2 bg-ink px-6 py-3 text-[11px] font-extrabold tracking-[0.18em] text-cream uppercase transition-colors hover:bg-primary sm:inline-flex"
             >
-              Call (833) 581-3551
+              Call (866) 821-7286
               <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
             </a>
             <button
@@ -135,11 +135,11 @@ export function Header() {
               ))}
             </nav>
             <a
-              href="tel:+18335813551"
+              href="tel:+18668217286"
               onClick={() => setOpen(false)}
               className="block bg-ink px-4 py-4 text-center text-xs font-extrabold tracking-[0.18em] text-cream uppercase"
             >
-              Call (833) 581-3551
+              Call (866) 821-7286
             </a>
           </div>
         )}
